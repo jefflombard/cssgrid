@@ -1,0 +1,9 @@
+.App {
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

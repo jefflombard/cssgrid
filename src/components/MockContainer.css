@@ -1,0 +1,29 @@
+.mock-header {
+  grid-area: header;
+  background-color: #FED18C;
+}
+
+.mock-footer {
+  grid-area: footer;
+  background-color: #FED18C;
+}
+
+.mock-nav {
+  grid-area: nav;
+  background-color: #FED99B;
+}
+
+.mock-article {
+  grid-area: article;
+  background-color: #D6EFFF;
+}
+
+.mock {
+    padding: 15px;
+}
+
+.mock-container {
+    border: 15px black solid;
+    flex-basis: 350px;
+    flex-grow: 1;
+}
