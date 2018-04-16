@@ -162,7 +162,7 @@ class ControlPanel extends Component {
         `}
         </textArea>
         <h3>Contribute</h3>
-        <p><a href="">View GitHub Repo</a></p>
+        <p><a href="https://github.com/jefflombard/cssgrid">View GitHub Repo</a></p>
         <p>Inspired by <a href="https://cvan.io/flexboxin5/">Flexbox in 5</a></p>
       </div>
     );
