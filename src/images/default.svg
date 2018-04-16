@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>default</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="default">
+            <g id="Rectangle">
+                <g id="path-1-link" fill="#D8D8D8">
+                    <rect id="path-1" x="0" y="0" width="100" height="100"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.5" width="99" height="99"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(10.000000, 10.000000)">
+                <g id="path-2-link" fill="#FED18C">
+                    <rect id="path-2" x="0" y="0" width="80" height="15"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.375" width="79" height="14.25"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(10.000000, 70.000000)">
+                <g id="path-3-link" fill="#FED18C">
+                    <rect id="path-3" x="0" y="0" width="80" height="15"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.375" width="79" height="14.25"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(10.000000, 55.000000)">
+                <g id="path-3-link" fill="#9B9B9B">
+                    <rect id="path-3" x="0" y="0" width="80" height="15"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.375" width="79" height="14.25"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(10.000000, 25.000000)">
+                <g id="path-5-link" fill="#FED99B">
+                    <rect id="path-5" x="0" y="0" width="80" height="15"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="0.5" y="0.375" width="79" height="14.25"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(10.000000, 40.000000)">
+                <g id="path-6-link" fill="#D6EFFF">
+                    <rect id="path-6" x="0" y="0" width="80" height="15"></rect>
+                </g>
+                <rect id="Rectangle-path" stroke="#979797" x="1" y="0.75" width="79" height="14.25"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

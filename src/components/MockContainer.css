@@ -8,6 +8,10 @@
   background-color: #FED18C;
 }
 
+.mock-content {
+    
+}
+
 .mock-nav {
   grid-area: nav;
   background-color: #FED99B;
@@ -18,6 +22,11 @@
   background-color: #D6EFFF;
 }
 
+.mock-ad{
+  grid-area: ad;
+  background-color: #888;
+}
+
 .mock {
     padding: 15px;
 }
@@ -26,4 +35,95 @@
     border: 15px black solid;
     flex-basis: 350px;
     flex-grow: 1;
+}
+
+.layout-container{
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.layout-container div p {
+    text-align: center;
+}
+
+.mock-container.none {
+}
+
+.mock-container.sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      "header nav"
+      "article article"
+      "footer footer";
+}
+
+.mock-container.sm .mock-ad {
+    display: none;
+}
+
+.mock-container.md {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+      "header header"
+      "nav article"
+      "footer footer";
+}
+
+.mock-container.md .mock-ad {
+    display: none;
+}
+
+.mock-container.lg {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+      "header header header"
+      "nav article ad"
+      "footer footer footer";
+}
+
+@media (max-width: 967px) {
+    .mock-container.responsive {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+          "header nav"
+          "article article"
+          "footer footer";
+    }
+    .mock-container.responsive .mock-ad {
+        display: none;
+    }
+}
+
+@media (min-width: 968px) and (max-width: 1191px) {
+    .mock-container.responsive {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: 
+          "header header"
+          "nav article"
+          "footer footer";
+    }
+    .mock-container.responsive .mock-ad {
+        display: none;
+    }
+}
+
+@media (min-width: 1192px) {
+    .mock-container.responsive {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: 
+          "header header header"
+          "nav article ad"
+          "footer footer footer";
+    }
 }
